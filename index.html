@@ -32,15 +32,37 @@
             </ul>
         </div>
     </header>
+    <!-- main section -->
+    <section>
+        <div class="main">
+            <img src="images/1.jfif" id="slideImage">
+        </div>
+    </section>
      
 
     <script>
+
         humburger=document.querySelector(".humburger");
         humburger.onclick=function(){
             navBar=document.querySelector(".nav_bar");
             navBar.classList.toggle("active");
         }
-    </script>
+        // image slider
+        function first(){
+             document.getElementById("slideImage").src="images/2.jfif";
+        }function two(){
+             document.getElementById("slideImage").src="images/3.jfif";
+        }function three(){
+             document.getElementById("slideImage").src="images/4.jfif";
+        }function four(){
+             document.getElementById("slideImage").src="images/1.jfif";
+             
+        }
+        setInterval(first,2000);
+        setInterval(two,4000);
+        setInterval(three,6000);
+        setInterval(four,8000);
+    // </script>
 </body>
 
 </html>
