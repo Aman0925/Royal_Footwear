@@ -98,8 +98,26 @@ section .main{
     
 
 
-}
 
+}
+.ladies{
+    height: 250px;
+    width: 100%;
+    background-color: red;
+    margin: 0 5px;
+    margin-top: 10px;
+}
+.gents{
+    height: 250px;
+    width: 100%;
+    background-color: blue;
+    margin: 0 5px;
+    margin-top: 10px;
+}
+.gents img{
+    width: 100%;
+    
+}
 
 /* add media query to responsive the website */
 @media (max-width:420px) {
